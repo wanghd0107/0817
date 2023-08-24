@@ -42,10 +42,7 @@ axios.post('https://ai.fakeopen.com/v1/chat/completions', {
         { "role": 'assistant',
             "content": 'Hello! How can I assist you today?'
         },
-        {
-            "role": "user",
-            "content": "Help me calculate 2+2!"
-        }
+
     ]
 },{
     headers:{
